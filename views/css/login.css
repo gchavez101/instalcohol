@@ -1,0 +1,29 @@
+
+/* Navbar for sign up page */
+nav.navbar {
+    background-color: #E2B933;
+}
+a.nav-link:hover {
+    color: #574420 !important;
+}
+/* End of navbar */
+
+.login.header {
+    padding: 100px 10px 100px 10px;
+}
+
+.login.header form {
+    width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.login.header form input {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .login.header form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,90 @@
+/* 
+Orange: #F36626;
+Yellow: #F3D70F;
+Brown: #311C1D;
+Gold: #E2B933;
+Green: #85BF50;
+
+Blue: #106189;
+Turq: #5B907E;
+White: #DDDFC0;
+*/
+
+.home-header-con {
+    background: url('../pics/instalcoholback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-header {
+    padding: 125px 10px 125px 10px;
+    background: rgba(0,0,0,0.3);
+    text-shadow: 0 0 9px black;
+}
+
+.btn {
+    font-family: 'Lato', sans-serif !important;
+}
+
+h1 {
+  color: white !important;
+}
+
+/* Blue button in home header */
+.home-header-btn-primary {
+    background-color: rgba(255,255,255,0.5);
+    color: #333;
+}
+.home-header-btn-primary:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+
+/* Green button in home header */
+.home-header-btn-success {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+.home-header-btn-success:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+
+.searchTerm {
+  float:left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

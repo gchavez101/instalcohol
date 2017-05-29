@@ -1,0 +1,27 @@
+/* 
+Orange: #F36626;
+Yellow: #F3D70F;
+Brown: #311C1D;
+Gold: #E2B933;
+Green: #85BF50;
+
+Blue: #106189;
+Turq: #5B907E;
+White: #DDDFC0;
+*/
+
+body {
+    font-family: 'Cabin', sans-serif !important;
+}
+nav.navbar {
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-brand {
+    color: white !important;
+}
+nav.navbar .nav-link {
+    color: white !important;
+}
+a.nav-link:hover {
+    color: #E2B933 !important;
+}
