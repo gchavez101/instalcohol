@@ -2,9 +2,16 @@
     <div class="jumbotron rounded-0 home-header text-center text-white">
         <h1>{{homeTitle}}</h1>
         
+        <section id="icons">
+                <a href="#" class="btn btn-small" target="_blank">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="#" class="btn btn-small" target="_blank">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+       </section>
+        
         <div class="wrap">
             <div class="search">
-                <input type="text" class="searchTerm" placeholder="Enter Location">
+                <input ng-model = "input" id="street_number" id="locality" class="searchTerm" type="text" placeholder="Enter a location" onFocus="geolocate()">
                 <button type="submit" class="searchButton">
                  <i class="fa fa-search"></i>
                 </button>
@@ -12,3 +19,7 @@
         </div>
     </div>
 </div>
+
+<!-- Footer -->
+<!--    <footer>-->
+<!--    </footer>-->

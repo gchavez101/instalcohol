@@ -1,0 +1,40 @@
+{
+  "name": "instalcohol",
+  "version": "1.0.0",
+  "description": "Alcohol delivery service.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3",
+    "http": "^0.0.0",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.9.2",
+    "jwt-simple": "^0.3.1",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.5.0",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gchavez101/instalcohol.git"
+  },
+  "keywords": [
+    "beer",
+    "alcohol",
+    "delivery"
+  ],
+  "author": "Gonzalo Chavez, Josh Stewart, Nick Neuman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gchavez101/instalcohol/issues"
+  },
+  "homepage": "https://github.com/gchavez101/instalcohol#readme"
+}

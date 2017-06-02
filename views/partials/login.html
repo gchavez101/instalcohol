@@ -1,14 +1,14 @@
 
 
 <div class="container login header">
-    <form action="" method="post" ng-submit="">
+    <form ng-submit="login()">
         <h3>Login</h3>
         <div class="row">
-            <div class="col-12">
-                <input type="text" class="form-control" name="user" placeholder="Username/Email" ng-model = "account.user"/>
+            <div class="col-xs-12 col-sm-6">
+                <input type="text" class="form-control" name="user" placeholder="Username/Email" ng-model = "user.name"/>
             </div>
-            <div class="col-12">
-                <input type="text" class="form-control" name="password" placeholder="Password" ng-model = "account.pass"/>
+            <div class="col-xs-12 col-sm-6">
+                <input type="text" class="form-control" name="password" placeholder="Password" ng-model = "user.password"/>
             </div>
             <div class="col-12">
                 <button type="submit" class="btn btn-success">Login</button>

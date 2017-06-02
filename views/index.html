@@ -3,19 +3,15 @@
 <head>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    
     <!-- Navbar styling -->
     <link rel="stylesheet" href="../css/navbar.css" />
     <!-- Master CSS -->
     <link rel="stylesheet" href="../css/style.css" />
-    
+    <!-- Autocomplete CSS -->
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Cabin" rel="stylesheet">
-    
     <!-- FontAwesome -->
     <script src="https://use.fontawesome.com/7963349237.js"></script>
-    
     <!-- Bootstrap Alpha 4 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- jQuery -->
@@ -30,12 +26,20 @@
     <script src="/js/angular-route.min.js"></script>
     <!--Angular_CSS for Route-->
     <script src="/js/angular-css.min.js"></script>
+    <!--Google-Places-->
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC-AIHmvGS1WZLknExtdoDuAhGHtW4MUb4"></script>
+    <script src="/js/autocomplete.js"></script>
+    <link rel="stylesheet" href="../css/autocomplete.css"/>
     
-     <!-- Controllers -->
+     <!-- Controllers and Services -->
     <script src="/app/controllers/app.js"></script>
     <script src="/app/controllers/home.js"></script>
     <script src="/app/controllers/contact.js"></script>
     <script src="/app/controllers/login.js"></script>
+    <script src="/app/controllers/signup.js"></script>
+    <script src="/app/controllers/locate.js"></script>
+    <script src="/app/services/services.js"></script>
+    <script src="/app/controllers/constants.js"></script>
 
 </head>  
 
@@ -64,14 +68,6 @@
     <!-- Template Views (Home, Contact, Login) -->
         <div ng-view></div>
 
-    <!-- Footer -->
-    <footer>
-      <script>
-        var today = new Date();
-        var year = today.getFullYear();
-        document.getElementById('year').textContent = year;
-      </script>
-    </footer>
     
 </body>
 </html>
